@@ -1,1 +1,1 @@
-export const one = () => 0;
+export const one = () => 1;
