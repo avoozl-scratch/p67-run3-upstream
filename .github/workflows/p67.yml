@@ -1,0 +1,10 @@
+name: p67
+on: [pull_request, push]
+permissions:
+  contents: read
+jobs:
+  p67-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node --test

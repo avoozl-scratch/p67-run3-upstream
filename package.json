@@ -1,0 +1,8 @@
+{
+  "name": "p67-scratch",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
